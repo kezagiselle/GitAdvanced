@@ -27,3 +27,20 @@ $
 
 # Challenges: 
 ## Part1
+### 1
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git status`
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git log`
+commit 2c21494b76639c7433c1dc7d94112175136f28a0 (HEAD -> main, origin/main, origin/HEAD)
+Author: kezagiselle <kezagiselle776@gmail.com>
+Date:   Wed Feb 26 15:26:58 2025 +0200
+:
+```
+### 2
