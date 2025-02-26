@@ -24,3 +24,5 @@ $ `git add work.js && git commit -m "chore: create another file"`
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
 ```
+
+Challenges: Part1
