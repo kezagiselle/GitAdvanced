@@ -165,3 +165,36 @@ Successfully rebased and updated refs/heads/main.
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
+```
+### 8
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/work)
+$ `git checkput main`
+git: 'checkput' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/work)
+$ `git checkout main`
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git log ft/work`
+commit 0a96ce983a7c9e3684294b2cd0603a5a38c63ab5 (ft/work)
+Author: kezagiselle <kezagiselle776@gmail.com>
+Date:   Thu Feb 27 12:02:31 2025 +0200
+
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git cherry-pick 0a96ce983a7c9e3684294b2cd0603a5a38c63ab5`
+[main 8b23998] implemented test 5
+ Date: Thu Feb 27 12:02:31 2025 +0200
+ 1 file changed, 11 insertions(+)
+ create mode 100644 test.html
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$
+```
