@@ -198,3 +198,13 @@ $ `git cherry-pick 0a96ce983a7c9e3684294b2cd0603a5a38c63ab5`
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
 ```
+### 9
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git log --graph`
+* commit 8ff4a819598660b0ca47e5785f873cf0775ee2f7 (HEAD -> main)
+| Author: kezagiselle <kezagiselle776@gmail.com>
+| Date:   Thu Feb 27 12:12:13 2025 +0200
+|
+:
+```
