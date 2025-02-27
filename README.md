@@ -208,3 +208,12 @@ $ `git log --graph`
 |
 :
 ```
+### 10
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git reflog`
+8e5d611 (HEAD -> main, origin/main, origin/HEAD) HEAD@{0}: commit: another exercise on part1
+8ff4a81 HEAD@{1}: commit: another exercise
+8b23998 HEAD@{2}: cherry-pick: implemented test 5
+:
+```
