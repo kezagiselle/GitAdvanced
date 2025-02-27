@@ -157,3 +157,11 @@ To https://github.com/kezagiselle/GitAdvanced.git
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
 ```
+### 7
+``` bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git rebase -i`
+Successfully rebased and updated refs/heads/main.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$
