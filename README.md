@@ -220,7 +220,6 @@ $ `git reflog`
 ### Part 2
 ### 1
 ```bash
-
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $ `git checkout -b ft/working`
 Switched to a new branch 'ft/working'
@@ -251,5 +250,39 @@ $ `git add readme.txt && git commit -m "Updated Project readme"`
 [main ebdd06d] Updated Project readme
  1 file changed, 4 insertions(+)
  create mode 100644 readme.txt
+```
+
+### 5
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/working)
+$ `git branch --merged`  
+* ft/working
+  main
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/working)
+$ `git branch -d ft/workimg`
+error: branch 'ft/workimg' not found.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/working)
+$ `git branch -d ft/working`
+error: Cannot delete branch 'ft/working' checked out at 'C:/Users/lenovo/Documents/THE GYM/GitAdvanced'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/working)
+$ `git checkout main`
+Switched to branch 'main'
+M       README.md
+Your branch is up to date with 'origin/main'.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git branch -d ft/working`
+error: The branch 'ft/working' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D ft/working'.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git branch -D ft/working`
+Deleted branch ft/working (was 115b7f7).
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$
 ```
 
