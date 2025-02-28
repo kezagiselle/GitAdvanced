@@ -217,3 +217,39 @@ $ `git reflog`
 8b23998 HEAD@{2}: cherry-pick: implemented test 5
 :
 ```
+### Part 2
+### 1
+```bash
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git checkout -b ft/working`
+Switched to a new branch 'ft/working'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/working)
+$
+```
+### 2
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/working)
+$ `git add feature.txt && git commit -m "Implemented core functionality for new feature"`
+[ft/working d8e1b9c] Implemented core functionality for new feature
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 feature.txt
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/working)
+$
+```
+### 3
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/working)
+$ `git checkout main`
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git add readme.txt && git commit -m "Updated Project readme"`
+[main ebdd06d] Updated Project readme
+ 1 file changed, 4 insertions(+)
+ create mode 100644 readme.txt
+```
+
