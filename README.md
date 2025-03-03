@@ -285,4 +285,23 @@ Deleted branch ft/working (was 115b7f7).
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
 ```
+### 6
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git log --oneline`
+5a7cf70 (HEAD -> main, origin/main, origin/HEAD) added some exercises
+6a5f33a some other exercises on the readme file
+ebdd06d Updated Project readme
+a664f6b another exercise here
 
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git checkout -b ft/commit-Branch <a664f6b>`
+bash: syntax error near unexpected token `newline'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git checkout -b ft/commit-Branch a664f6b`
+Switched to a new branch 'ft/commit-Branch'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/commit-Branch) 
+$
+```
