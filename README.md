@@ -327,3 +327,15 @@ Successfully rebased and updated refs/heads/ft/commit-Branch.
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/commit-Branch)
 $
 ```
+### 9
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git branch -m ft/commit-Branch ft/improved-branch`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git checkout ft/improved-branch`
+Switched to branch 'ft/improved-branch'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/improved-branch)
+$
+```
