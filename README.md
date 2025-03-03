@@ -375,6 +375,6 @@ Saved working directory and index state WIP on main: 9342d22 feat: checking Out 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
 ```
-## Part 3
-### 1
+### 2
+
 
