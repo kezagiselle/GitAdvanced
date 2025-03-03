@@ -314,3 +314,16 @@ Already up to date.
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
 ```
+### 8
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git checkout ft/commit-Branch`
+Switched to branch 'ft/commit-Branch'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/commit-Branch)
+$ `git rebase main`
+Successfully rebased and updated refs/heads/ft/commit-Branch.     
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/commit-Branch)
+$
+```
