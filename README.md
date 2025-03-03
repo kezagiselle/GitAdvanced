@@ -376,5 +376,50 @@ lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
 ```
 ### 2
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git stash pop`
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+        both modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+The stash entry is kept in case you need it again.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$
+```
+### 3
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git add feature.txt`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git commit -m "Modify example.txt in feature-branch"`
+[main 9bf7577] Modify example.txt in feature-branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 feature.txt
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git checkout main`
+Already on 'main'
+M       README.md
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git merge ft/improved-branch`
+Already up to date.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$
+```
 
 
