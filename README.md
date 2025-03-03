@@ -365,3 +365,16 @@ HEAD is now at bba1efc feat: Branch Rebasing
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced ((bba1efc...))
 $
 ```
+## Part 3
+### 1
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git stash`
+Saved working directory and index state WIP on main: 9342d22 feat: checking Out Detached HEAD
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$
+```
+## Part 3
+### 1
+
