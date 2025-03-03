@@ -502,3 +502,16 @@ $ git tag v1.0
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
 $
 ```
+### 8
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git tag`
+v1.0
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$ `git tag -d v1.0`
+Deleted tag 'v1.0' (was b4189fe)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$
+```
