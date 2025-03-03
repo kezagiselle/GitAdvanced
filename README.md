@@ -305,3 +305,12 @@ Switched to a new branch 'ft/commit-Branch'
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (ft/commit-Branch) 
 $
 ```
+### 6
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)     in)
+$ `git merge ft/commit-Branch`
+Already up to date.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Documents/THE GYM/GitAdvanced (main)
+$
+```
